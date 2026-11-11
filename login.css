@@ -1,0 +1,37 @@
+body{
+    background-image: url("WhatsApp\ Image\ 2026-09-10\ at\ 10.52.06\ AM.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display: flex;
+    padding: 50px;
+   
+}
+h2{
+    font-size: xx-large;
+}
+p{
+    font-size: 20px;
+}
+button{
+   
+width:100px ;
+}
+header a{
+    text-decoration: none;
+}
+a:hover{
+   background-color: gray;
+   width: 50px;
+   text-shadow:3px 2px 5px rgb(229, 10, 185);
+   transition: 1s;
+   
+}
+img{
+    border: 5px solid black;
+    border-radius: 30%;
+    box-shadow:0 0 15px 3px #f30612;
+}
+
+

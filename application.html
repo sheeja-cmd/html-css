@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+</head>
+<body>
+   <center><h2 style="background-color: antiquewhite;">Student Registration Form</h2>
+   <p>Fill in all required details.</p><hr></center>
+<form action="submitted.html" method="get">
+      
+   <fieldset>
+  <legend>Personal Information</legend>
+
+  <label>Full Name:</label>
+  <input type="text" placeholder="First Name">
+   <input type="text" placeholder="Sur Name">
+   <br><br>
+    <label>Email Address:</label>
+  <input type="email" placeholder="email" required>
+  <br><br>
+   <label>Phone Number:</label>
+  <input type="number" placeholder="phonenumber" required>
+  <br><br>
+  <label>Date of birth:</label>
+  <input type="date" >
+    <br><br>
+    <label>Gender:</label>
+  <input type="radio" name="Gender" value="fem" >Female
+  <input type="radio"  name="Gender" value="mal">Male
+  <input type="radio" name="Gender"value="cus">Others<br><br>
+ 
+  <label>Religion:</label>
+  <input type="radio" name="Religion" value="Hindu" >Hindu
+  <input type="radio" name="Religion" value="Muslim" >Muslim
+  <input type="radio" name="Religion" value="Christian" >Christian
+  <input type="radio" name="Religion" value="Others" >Others
+  <br><br>
+  <label>Caste:</label>
+  <input type="radio" name="Caste" value="BC-A" >BC-A
+   <input type="radio" name="Caste" value="BC-B" >BC-B
+   <input type="radio" name="Caste" value="BC-C" >BC-C
+  <input type="radio" name="Caste" value="BC-D" >BC-D
+   <input type="radio" name="Caste" value="BC-E" >BC-E
+    <input type="radio" name="Caste" value="OC" >OC
+     <input type="radio" name="Caste" value="SC" >SC
+      <input type="radio" name="Caste" value="ST" >ST
+  <br><br>
+   <label>Maritual Status:</label>
+  <input type="radio" name="Maritual Status" value="Single" >Single
+  <input type="radio"  name="Maritual Status" value="Married">Married
+  <input type="radio" name="Maritual Status"value="Divorced">Divorced
+  <input type="radio" name="Maritual Status" value="Others" >Others
+   <br><br>
+  <label>Languages Known:</label>
+  <input type="checkbox" name="Languages Known" value="Telugu" >Telugu
+  <input type="checkbox" name="Languages Known" value="English" >English
+  <input type="checkbox" name="Languages Known" value="Hindi" >Hindi
+   <br><br>
+   
+</fieldset>
+
+<fieldset>
+  <legend>Course Information</legend>
+
+  <label>Select Course:</label>
+  <select>
+  <option>Schooling
+  </option>
+   <option>Diploma
+  </option>
+   <option>Btech
+  </option>
+   <option>MTECH
+  </option>
+   <option>MBA
+  </option>
+
+  
+  </select>  <br>  <br>
+<label>Year Of Study:</label>
+  <select>
+  <option>First Year
+  </option>
+   <option>Second Year
+  </option>
+   <option>Third Year
+  </option>
+   <option>FourtH Year
+  </option>
+   <option>Completed
+  </option>
+  </select>
+<br><br>
+  <label>Preferred Activities:</label>
+  <input type="checkbox" name="Preferred Activites" value="sports">Sports
+  <input type="checkbox" name="Preferred Activites"value="Cultural Activities">Cultural Activities
+  <input type="checkbox" name="Preferred Activites" value="Coding">Coding
+</fieldset>
+<br>
+<fieldset>
+    <legend>Permanent Address</legend>
+<label>Full Address:</label>
+    <textarea rows="5" cols="100"></textarea><br><br>
+    <label>City:</label>
+   <input type="text"><br><br>
+   <label>State:</label>
+   <input type="text"><br><br>
+   <label>Pincode:</label>
+   <input type="number"><br><br>
+</fieldset>
+<br>
+<center>
+    <button style="background-color: darkgray;">Submit</button>
+<button style="background-color: darkgray;">ClearForm</button>
+</center>
+
+   </form>
+   
+   
+</body>
+</html>

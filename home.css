@@ -1,0 +1,15 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+}
+p{
+    
+    font-size: x-large;
+}
+h1{
+    color: red;
+      font-size: xx-large;
+}
+img,video{
+ width: 50%;
+}

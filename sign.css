@@ -1,0 +1,43 @@
+body{
+    background-color: bisque;
+      background-image: url("welcome.avif");
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 5px solid red;
+    
+    text-align: center;
+   
+   margin: 0;
+   min-height: 130vh;
+
+   padding:60px;
+  
+}
+button:hover{
+        background-color: blue;
+        color: whitesmoke;
+    }
+h1{
+   text-shadow: 0,0,10px,rgba(red, green, blue, alpha);
+}
+div{
+    border: 6px solid rgb(49, 16, 239);
+    width: 300px;
+   padding: 10px;
+   margin: 10px;
+   box-sizing: border-box;
+}
+
+input:hover{
+    background-color:burlywood ;
+}
+
+
+
+@media screen and (max-width:600px){
+    body{
+        background-color: aqua;
+    }
+}
+
